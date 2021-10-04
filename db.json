@@ -1,0 +1,237 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "1234",
+      "hotel": 1
+    },
+    {
+      "id": 2,
+      "username": "nikhil",
+      "password": "1234",
+      "hotel": 2
+    },
+    {
+      "username": "prakash",
+      "password": "4321",
+      "hotel": 2,
+      "id": 3
+    },
+    {
+      "username": "sanji",
+      "password": 2134,
+      "hotels": 1,
+      "id": 4
+    },
+    {
+      "name": "Aryan",
+      "address": "motipur",
+      "phone": "1234678900",
+      "email": "aryan@mail.com",
+      "password": "kudsghfu12",
+      "id": 5
+    },
+    {
+      "name": "nikhil prakash",
+      "address": "sonnet sonar  teghoria more",
+      "phone": "0776499998",
+      "email": "nikhil.uni095@gmail.com",
+      "password": "weugfuewyf",
+      "id": 9
+    },
+    {
+      "name": "Sakshi kumari",
+      "address": "pipra khem",
+      "phone": "4876564842",
+      "email": "sjdhgkudhf@mail.in",
+      "password": "dvbjkdfh758",
+      "id": 10
+    },
+    {
+      "name": "kdfgh",
+      "address": "jsdgfyds",
+      "phone": "7764999980",
+      "email": "ksjdfh@gmijr.com",
+      "password": "sduuwegr",
+      "id": 11
+    },
+    {
+      "name": "nikhil prakash",
+      "address": "sonnet sonar  teghoria more",
+      "phone": "7764999980",
+      "email": "a@a.in",
+      "password": "12345678",
+      "id": 12
+    },
+    {
+      "name": "nikhil prakash",
+      "address": "sonnet sonar  teghoria more",
+      "phone": "0776499998",
+      "email": "n@a.com",
+      "password": "12345678",
+      "id": 13
+    },
+    {
+      "name": "rtjhbtrtyjty",
+      "address": "jtyj",
+      "phone": "7764999980",
+      "email": "j7j@g.com",
+      "password": "tyj67utjuj",
+      "id": 14
+    }
+  ],
+  "hotels": [
+    {
+      "id": 1,
+      "hotelname": "Paradise Stay",
+      "City": "bangalore",
+      "Amenities": "Different cusine,swminng pool",
+      "Address": "abc bangalore",
+      "Contact": 765374564378658400,
+      "imgUrl": "https://5.imimg.com/data5/QD/QB/MY-24980688/hotel-reception-desks-250x250.jpg",
+      "reviews": [
+        "Nice!"
+      ]
+    },
+    {
+      "id": 2,
+      "hotelname": "Hill Palace",
+      "City": "bangalore",
+      "Amenities": "Different cusine,swminng pool",
+      "Address": "abc bangalore",
+      "Contact": 765374564378658400,
+      "imgUrl": "https://us.123rf.com/450wm/belchonock/belchonock1907/belchonock190705899/126729884-portrait-of-receptionist-at-desk-in-lobby.jpg?ver=6",
+      "reviews": [
+        "awesome",
+        "Good",
+        "recommended",
+        "awesonvkdfjkbgjdfg\nskdjfhkusdygfsdgs",
+        "nice jsdgfsd"
+      ]
+    },
+    {
+      "id": 3,
+      "hotelname": "Monson Stay",
+      "City": "bangalore",
+      "Amenities": "Different cusine,swminng pool",
+      "Address": "abc bangalore",
+      "Contact": 765374564378658400,
+      "imgUrl": "https://media-cdn.tripadvisor.com/media/photo-s/06/6d/4f/ec/riverside-majestic-hotel.jpg",
+      "reviews": [
+        "nice Woila",
+        "good man",
+        "waoooo",
+        "reccomded"
+      ]
+    },
+    {
+      "id": 4,
+      "hotelname": "Sun Stay",
+      "City": "bangalore",
+      "Amenities": "Different cusine,swminng pool",
+      "Address": "abc bangalore",
+      "Contact": 765374564378658400,
+      "imgUrl": "https://media-cdn.tripadvisor.com/media/photo-s/06/6d/4f/ec/riverside-majestic-hotel.jpg",
+      "reviews": [
+        "awesome",
+        "Good",
+        "recommended"
+      ]
+    },
+    {
+      "id": 5,
+      "hotelname": "Sons Stay",
+      "City": "bangalore",
+      "Amenities": "Different cusine,swminng pool",
+      "Address": "abc bangalore",
+      "Contact": 765374564378658400,
+      "imgUrl": "https://media-cdn.tripadvisor.com/media/photo-s/06/6d/4f/ec/riverside-majestic-hotel.jpg",
+      "reviews": []
+    }
+  ],
+  "bookings": [
+    {
+      "startDate": "2021-10-29",
+      "endDate": "2021-10-30",
+      "noOfPersons": 1,
+      "noOfRooms": 2,
+      "typeOfRoom": "Non-AC",
+      "hotelId": 1,
+      "hotelName": "Rose Stay",
+      "user": "a@a.in",
+      "bookingId": "5",
+      "id": 5
+    },
+    {
+      "hotelName": "Paradise Stay",
+      "startDate": "2021-10-15",
+      "endDate": "2021-10-22",
+      "noOfRooms": "2",
+      "noOfPersons": "3",
+      "typeOfRoom": "AC",
+      "user": "a@a.in",
+      "id": 13
+    },
+    {
+      "hotelName": "Paradise Stay",
+      "startDate": "2021-10-08",
+      "endDate": "2021-10-09",
+      "noOfRooms": "3",
+      "noOfPersons": "5",
+      "typeOfRoom": "AC",
+      "user": "a@a.in",
+      "id": 14
+    },
+    {
+      "hotelName": "Paradise Stay",
+      "startDate": "2021-10-08",
+      "endDate": "2021-10-09",
+      "noOfRooms": "3",
+      "noOfPersons": "5",
+      "typeOfRoom": "AC",
+      "user": "a@a.in",
+      "id": 15
+    },
+    {
+      "hotelName": "Monson Stay",
+      "startDate": "2021-10-08",
+      "endDate": "2021-10-09",
+      "noOfRooms": "3",
+      "noOfPersons": "3",
+      "typeOfRoom": "AC",
+      "user": "a@a.in",
+      "id": 16
+    },
+    {
+      "hotelName": "Monson Stay",
+      "startDate": "2021-10-08",
+      "endDate": "2021-10-09",
+      "noOfRooms": "3",
+      "noOfPersons": "3",
+      "typeOfRoom": "AC",
+      "user": "a@a.in",
+      "id": 17
+    },
+    {
+      "hotelName": "Monson Stay",
+      "startDate": "2021-10-06",
+      "endDate": "2021-10-15",
+      "noOfRooms": "2",
+      "noOfPersons": "3",
+      "typeOfRoom": "AC",
+      "user": "a@a.in",
+      "id": 18
+    },
+    {
+      "hotelName": "Monson Stay",
+      "startDate": "2021-10-06",
+      "endDate": "2021-10-15",
+      "noOfRooms": "2",
+      "noOfPersons": "3",
+      "typeOfRoom": "AC",
+      "user": "a@a.in",
+      "id": 19
+    }
+  ]
+}
